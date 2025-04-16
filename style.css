@@ -1,0 +1,180 @@
+.header__logo{
+      position: absolute;
+    }
+     
+      .header__sign{
+        display: flex;
+        justify-content: end;
+        gap: 15px;
+      }
+
+    .header{
+        background-color: black;
+    }
+
+    .header__central{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .header__title {
+        text-align: center;
+        width: 588px;
+      font-family: 'Montserrat' sans-serif;
+      margin-top: 40px;
+      margin-bottom: 52px;
+      font-weight: 900;
+      font-size: 50px;
+      color: #dc56c5;
+    }
+    .header__sign-in {
+        text-decoration: none;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+      color: #fff;
+    }
+    .header__sign-up {
+        text-decoration: none;
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .header__inputs{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin-bottom: 133px;
+      }
+    .header__search {
+        text-align: center;
+      border-radius: 25px;
+      width: 270px;
+      height: 40px;
+      font-weight: 400;
+      font-size: 16px;
+      color: #939393;
+      border: 1px solid gray;
+    }
+    .header__country {
+        text-align: center;
+        border-radius: 25px;
+        width: 270px;
+        height: 40px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #939393;
+        border: 1px solid gray;
+      }
+     .header__btn{
+      cursor: pointer;
+      margin-top: -100px;
+      margin-bottom: 89px;
+      text-align: center;
+      border-radius: 25px;
+      width: 134px;
+      height: 24px;
+      font-family: 'Montserrat' sans-serif;
+      font-weight: 500;
+      font-size: 13px;
+      text-transform: uppercase;
+      color: #fff;
+      background: rgba(0, 0, 0, 0.4);
+        border: 2px solid #dc56c5;;
+     }
+  
+
+     @media screen and (max-width: 779px) {
+      .header__logo{
+        position: absolute;
+      }
+       
+        .header__sign{
+          display: none;
+        }
+        
+
+  
+      .header{
+          background-color: black;
+      }
+  
+      .header__central{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+      }
+      .header__title {
+          text-align: center;
+          width: 212px;
+        font-family: 'Montserrat' sans-serif;
+        margin-top: 40px;
+        margin-bottom: -15px;
+        font-weight: 900;
+        font-size: 18px;
+        color: #dc56c5;
+      }
+      .header__sign-in {
+          text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: #fff;
+      }
+      .header__sign-up {
+          text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: center;
+        color: #fff;
+      }
+  
+      .header__inputs{
+          display: flex;
+          flex-direction: column;
+          gap: 25px;
+          margin-bottom: 133px;
+        }
+      .header__search {
+          text-align: center;
+        border-radius: 25px;
+        min-width: 270px;
+        height: 40px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #939393;
+        border: 1px solid gray;
+      }
+      .header__country {
+          text-align: center;
+          border-radius: 25px;
+          min-width: 270px;
+          height: 40px;
+          font-weight: 400;
+          font-size: 16px;
+          color: #939393;
+          border: 1px solid gray;
+        }
+       .header__btn{
+        cursor: pointer;
+        margin-top: -150px;
+        margin-bottom: 59px;
+        text-align: center;
+        border-radius: 25px;
+        width: 134px;
+        height: 24px;
+        font-family: 'Montserrat' sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        text-transform: uppercase;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.4);
+          border: 2px solid #dc56c5;;
+       }
+}
